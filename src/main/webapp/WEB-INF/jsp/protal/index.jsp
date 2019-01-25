@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-	<title>暴兵</title>
+	<title>主页面</title>
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7/bootstrap.min.css">
@@ -34,37 +34,37 @@
   			<div class="item active">
   				<img src="image/ic_p4.jpg">
   				<p class="carousel-caption">
-  					骑马
+  					图片
   				</p>
   			</div>
   			<div class="item">
   				<img src="image/ic_p5.jpg">
   				<p class="carousel-caption">
-  					骑马
+  					图片
   				</p>
   			</div>
   			<div class="item">
   				<img src="image/ic_p6.jpg">
   				<p class="carousel-caption">
-  					骑马
+  					图片
   				</p>
   			</div>
   			<div class="item">
   				<img src="image/ic_p7.jpg">
   				<p class="carousel-caption">
-  					骑马
+  					图片
   				</p>
   			</div>
   			<div class="item">
   				<img src="image/ic_p8.jpg">
   				<p class="carousel-caption">
-  					骑马
+  					图片
   				</p>
   			</div>
   			<div class="item">
   				<img src="image/ic_p9.jpg">
   				<p class="carousel-caption">
-  					骑马
+  					图片
   				</p>
   			</div>
   		</div>
@@ -84,7 +84,7 @@
   		<div class="col-xs-4">
   			<div class="panel panel-default" id="pFunc1">
   				<div class="panel-body">
-  					<strong>店铺</strong>
+  					<strong>选项一</strong>
   					<img class="iv_function" src="image/ic_store.svg">
   				</div>
   			</div>
@@ -92,7 +92,7 @@
   		<div class="col-xs-4">
   			<div class="panel panel-default"  id="pFunc2">
   				<div class="panel-body">
-  					<strong>纪念馆</strong>
+  					<strong>选项二</strong>
   					<img class="iv_function" src="image/ic_remeber.svg">
   				</div>
   			</div>
@@ -100,7 +100,7 @@
   		<div class="col-xs-4">
   			<div class="panel panel-default"  id="pFunc3">
   				<div class="panel-body">
-  					<strong>私人角落</strong>
+  					<strong>选项三</strong>
   					<img class="iv_function" src="image/ic_personal.svg">
   				</div>
   			</div>
@@ -109,16 +109,16 @@
   	<!-- 技术日记 -->
   	<div class="container div_divider">
   		<!-- 分割线 -->
-  		<hr class="hr_1">Bigname Technology World !<hr class="hr_2">
+  		<hr class="hr_1">SSMdemo Test !<hr class="hr_2">
   		<div class="row">
   			<!-- 文章列表 -->
   			<div class="col-xs-9">
   				<div class="list-group div_article">
   					<!-- 子头栏 -->
   					<a href="#" class="list-group-item active item_article_first">
-  						<h4 class="list-group-item-heading">
-  							My Life, Like Sun!
-  						</h4>
+  						<span class="list-group-item-heading">
+  							The first step is as good as half over!
+  						</span>
   					</a>
   					<!-- 文章列表 -->
   					<div class="list-group-item item_article">
@@ -203,7 +203,7 @@
   							<!-- 右侧图片，信息 -->
   							<div class="col-xs-3 div_right_info">
   								<img class="iv_article img-rounded" src="image/ic_android3.jpg">
-  								<div>2017/12/9 12:09</div>
+  								<div>2019/12/9 12:09</div>
   							</div>
   						</div>
   					</div>

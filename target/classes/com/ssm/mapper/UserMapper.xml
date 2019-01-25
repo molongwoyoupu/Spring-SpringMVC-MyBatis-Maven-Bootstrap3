@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper   
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"  
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd"> 
+<mapper namespace="com.ssm.mapper.UserMapper">
+	<resultMap id="userMap" type="com.ssm.pojo.User">
+        <id property="id" column="id"/>
+        <result property="accountNum" column="accountNum"/>
+        <result property="nickName" column="nickName"/>
+        <result property="password" column="password"/>
+        <result property="email" column="email"/>
+	</resultMap>
+
+	<insert id="insertUser" parameterType="com.ssm.pojo.User">
+           insert into t_user(accountNum, nickName, password, age) 
+           values
+			(#{accountNum},
+			#{nickName},
+			#{password},
+			#{age})
+       	<selectKey resultType="long" keyProperty="id">  
+             SELECT LAST_INSERT_ID() AS ID  
+        </selectKey> 
+   </insert>
+   <insert id="insertUserList" parameterType="java.util.List">
+           insert into t_user(accountNum, nickName,password,gender,age,createTime,availability) 
+           values
+		<foreach collection="list" item="user" index="index" separator=",">
+			(#{user.accountNum},
+			#{user.nickName},
+			#{user.password},
+			#{user.gender},
+			#{user.age},
+			#{user.createTime},
+			#{user.availability})
+		</foreach>
+   </insert>
+   
+   <select id="getAllUsers" resultType="com.ssm.pojo.User">
+        select * from t_user
+	</select>
+	
+</mapper>
