@@ -1,6 +1,6 @@
 
 <h3>Eclipse搭建Maven项目整合SSM框架（maven+spring+springmvc+mybatis）</h3>
-
+<h4>CSDN博客地址：https://blog.csdn.net/qq_29518175/article/details/86607735</h4>
 <h4>环境准备</h4>
 数据库：MYSQL8.0 </br>
 JAVA：JDK1.8
