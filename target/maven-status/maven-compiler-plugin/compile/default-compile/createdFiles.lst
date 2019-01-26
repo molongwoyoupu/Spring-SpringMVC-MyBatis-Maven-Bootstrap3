@@ -1,6 +1,5 @@
 com\ssm\common\utils\RandomUtils.class
 com\ssm\controller\PageController.class
-com\ssm\controller\BaseController.class
 com\ssm\common\pojo\DataResult.class
 com\ssm\controller\UserController.class
 com\ssm\pojo\User.class

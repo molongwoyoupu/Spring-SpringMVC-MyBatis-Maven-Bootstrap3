@@ -13,17 +13,23 @@ public class UserController {
 
 	@Autowired
 	private UserService userService;
-	
+	/**
+	 * 获取用户列表
+	 * @param page 页数
+	 * @param rows 行数
+	 * @return
+	 */
 	@RequestMapping(value = "/getUserList")
     @ResponseBody
     public DataResult getUserList(int page,int rows){
-		System.out.println("page:"+page);
-		System.out.println("rows:"+rows);
 		DataResult result = userService.getUserList(page,rows);
         return result;
     }
-	
+	/**
+	 * 随机创建用户
+	 */
 	@RequestMapping(value = "/saveUserList")
+	@ResponseBody
     public void saveUserList(){
 		userService.saveUserList();
     }
