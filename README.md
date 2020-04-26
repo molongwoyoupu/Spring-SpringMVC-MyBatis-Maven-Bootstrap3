@@ -6,6 +6,12 @@
 数据库：MYSQL8.0 </br>
 JAVA：JDK1.8
 
+
+导入方式： import→Maven→Existing Maven projects。 </br>
+启动方式： </br>
+1.先install:右键项目Run As→Maven install; </br>
+2.再run：右键项目Run As→Maven build...→（在Goals中输入 clean tomcat7:run）→Run</br>
+
 <h4>Maven项目依赖版本号</h4>
 
 <spring.version>5.1.4.RELEASE</spring.version>       </br>
